@@ -1,0 +1,9 @@
+---
+- hosts: windows
+  gather_facts: no
+  tasks:
+    - name: Copy a single file
+      win_copy:
+        src: /root/ansible/choco.yml
+        dest: C:\
+#        remote_src: yes

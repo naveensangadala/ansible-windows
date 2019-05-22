@@ -1,0 +1,18 @@
+---
+- hosts: windows
+  gather_facts: no
+  tasks:
+    - name: Create directory structure
+      win_file:
+         path: C:\test-dir
+         state: directory
+
+    - name: create a file under test-dir
+      win_file: 
+         path: C:\test-dir\test-file
+         state: touch
+
+    - name: remove file
+      win_file:
+         path: C:\choco.yml
+         state: absent
