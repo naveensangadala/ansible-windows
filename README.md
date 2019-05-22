@@ -1,5 +1,7 @@
 # ansible-windows
-ansible windows modules 
+this repository is for installing the packages  and software by using Ansible-windows modules
+
+and also playbook execution for the playbooks in this existing repository
 
 playbook execution for win-java.yml Extra-vars 
 
