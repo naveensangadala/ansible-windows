@@ -1,5 +1,5 @@
 # ansible-windows
-this repository is for installing the packages  and software by using Ansible-windows modules
+this repository is for installing the packages  and java software by using Ansible-windows modules
 
 and also playbook execution for the playbooks in this existing repository
 
